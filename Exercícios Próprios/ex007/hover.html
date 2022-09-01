@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doinf House</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .linha {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .champ {
+            display: inline-block;
+            text-align: center;
+            border: 1px solid white;
+            height: 200px;
+            width: 200px;
+        }
+        
+        .champ > p {
+            visibility: hidden;
+        }
+
+        .champ:hover > p {
+            visibility: visible;
+            color: white;
+            background-color: green;
+        }
+        
+        .champ:hover {
+            color: green;
+        }
+
+        .champ#d1:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+        }
+
+        .champ#d1:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dicas</h1>
+    <div class="linha">
+        <div class="champ">Corki <p>Pacote timmado com objetivo</p></div>
+        <div class="champ">Jhin<p>Armadilha controla o mapa com visão</p></div>
+        <div class="champ">Mordekaiser<p>Ult de perto para aproximar-se</p></div>
+        <div id="d1" class="champ">Yummi <p>Boneco merda, altamente leproso</p></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+:root {
+    --cor-azul: #2c3e50;
+    --cor-vermelha: #e74c3c;
+    --cor-amarela: #c5ba1e;
+}
+body {
+    background-color: var(--cor-azul);
+    color: white;
+}
+
+#days-of-week h3 {
+    color: var(--cor-amarela);
+}
+
+#activities h2 {
+    color: black;
+    background-color: var(--cor-amarela);
+    border: 2px solid;
+}
+
+#activities li {
+    color: ;
+}
+
+.astronomy-class {
+    color: var(--cor-vermelha);
+}

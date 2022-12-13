@@ -1,0 +1,14 @@
+li {
+    color: green;
+}
+
+h1 {
+    color: purple;
+    border: 2px dashed orange;
+}
+
+body {
+    background-image: url(https://www.potiguarnoticias.com.br/_ups/noticias/2022/11/01/709f0c92affbe4d2efda8c0ab75af0ee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
